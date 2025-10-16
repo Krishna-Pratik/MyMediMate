@@ -4,9 +4,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // If deploying to a subfolder (e.g., GitHub Pages), set base accordingly.
-  // Change this if your production base path differs.
-  base: "/MyMediMate/",
+  // Use "/" for Vercel, "/MyMediMate/" for GitHub Pages
+  base: process.env.VERCEL ? "/" : "/MyMediMate/",
   server: {
     host: "localhost",
     port: 8080,
