@@ -1,8 +1,12 @@
 # MyMediMate - Hospital Appointment Scheduler
 
+[![Deploy to GitHub Pages](https://github.com/Krishna-Pratik/MyMediMate/actions/workflows/deploy.yml/badge.svg)](https://github.com/Krishna-Pratik/MyMediMate/actions/workflows/deploy.yml)
+
 ## Project Overview
 
 MyMediMate is a modern hospital appointment scheduling system that provides an intuitive interface for managing doctor appointments with day and week calendar views.
+
+**Live Demo:** [https://krishna-pratik.github.io/MyMediMate/](https://krishna-pratik.github.io/MyMediMate/)
 
 ## Getting Started
 
